@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'night': '#11121E'
+        'night-background': '#11121E',
+        'night-text': '#C6ACA8',
+        "night-heading-text-green": '#68EA5D'
       },
       fontFamily: {
         'display': ['Inter'],
