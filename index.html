@@ -10,20 +10,19 @@
 
 <body class="font-body bg-white text-black dark:bg-night-background  dark:text-night-text">
   <div class="container mx-auto p-4">
-    <header class="mb-24">
+    <header class="mb-12 mt-12 md:mb-24 md:mt:24">
       <div class="grid grid-cols-8 gap-4 mb-16">
-        <div class="col-span-1">
-          <div class="flex">
-            <img class="w-28 rounded-3xl overflow-hidden"
-              src="https://ca.slack-edge.com/T04MHH5K7-UGEGJKSRW-49df04eb9959-512" />
-            <div class="pt-4 ml-6 bottom-0">
+        <div class="col-span-8 md:col-span-2 lg:col-span-2 xl:col-span-1">
+          <div class="flex justify-center md:justify-start">
+            <div class="w-32 h-32 rounded-3xl md:w-28 md:h-28 overflow-hidden" style="background-position: center; background-image: url('https://ca.slack-edge.com/T04MHH5K7-UGEGJKSRW-49df04eb9959-512'); background-size: cover;"></div>
+            <div class="pt-4 ml-6 bottom-0 hidden md:block">
               <svg xmlns="http://www.w3.org/2000/svg" width="23" height="74" viewBox="0 0 23 74" fill="none">
                 <path d="M1 1L22.5 22.5V74" stroke="#C6ACA8" />
               </svg>
             </div>
           </div>
         </div>
-        <div class="col-span-4">
+        <div class="col-span-8 md:col-span-6 lg:col-span-5 xl:col-span-4">
           <div class="flex pt-4">
             <p class="text-2xl">
               My passion lies in unraveling grand complexities through elegantly simple solutions. Remember, in coding,
@@ -34,17 +33,21 @@
         </div>
       </div>
       <div class="grid grid-cols-8 gap-4">
-        <div class="col-span-3 col-start-2">
+        <div class="col-span-8 md:col-span-6 md:col-start-3 lg:col-span-4 lg:col-start-3 xl:col-span-2 xl:col-start-2">
           <h1 class="text-4xl dark:text-night-heading-text-green mb-3">Antonio Rabuzin</h1>
           <p>Versatile Senior/Lead Software Developer</p>
           <p>10+ years of professional experience in web development</p>
-          <a href="emailto:antonio@rabuzin.info">antonio@rabuzin.info</a>
+        </div>
+      </div>
+      <div class="grid grid-cols-8 gap-4 mt-8">
+        <div class="col-span-8 md:col-span-6 md:col-start-3 lg:col-span-4 lg:col-start-3 xl:col-span-2 xl:col-start-2">
+          <a class="pt-8" href="emailto:antonio@rabuzin.info">antonio@rabuzin.info</a>
         </div>
       </div>
     </header>
     <main>
-      <div class="grid grid-cols-3 gap-24">
-        <div class="col-span-1 ">
+      <div class="grid grid-cols-3 gap-12 xl:gap-24">
+        <div class="col-span-3 md:col-span-1">
           <h2 class="mb-4 text-2xl dark:text-night-heading-text-green">Consulting</h2>
           <p>I've been lucky to work in all sorts of places – from agencies and universities to startups and big
             corporations. I've tackled different projects, served different audiences, and dabbled in different parts of
@@ -52,7 +55,7 @@
             tech world. All of this has given me a pretty unique way of looking at problems and coming up with solutions
             that stand out.</p>
         </div>
-        <div class="col-span-1 ">
+        <div class="col-span-3 md:col-span-1">
           <h2 class="mb-4 text-2xl dark:text-night-heading-text-green">Development</h2>
           <p>I specialize in web development, focusing on complex business web apps and real-time B2C applications. With
             expertise in JavaScript and a flexible approach to tools and frameworks, I tailor solutions to each
@@ -61,7 +64,7 @@
             excellence.
           </p>
         </div>
-        <div class="col-span-1 ">
+        <div class="col-span-3 md:col-span-1">
           <h2 class="mb-4 text-2xl dark:text-night-heading-text-green">Team as a service</h2>
           <p>Bring your larger projects to life with my extended team of experts. Introducing "Team-as-a-Service": a
             group
@@ -78,9 +81,9 @@
         <p class="text-right">Zagreb, Croatia, Aug 2023</p>
       </div>
       <div class="grid grid-cols-8 mb-5 mt-5">
-        <div class="col-span-4 col-start-2">
-          <h2 class="mb-4 text-2xl dark:text-night-heading-text-green">Background</h2>
-          <p>Born in Zagreb, Croatia, I'm 29 years old and my journey in software development has been a whirlwind of
+        <div class="col-span-8 md:col-span-6 md:col-start-2 xl:col-span-4 xl:col-start-2">
+          <h2 class="mb-4 dark:text-night-heading-text-green">Background</h2>
+          <p class="text-xl">Born in Zagreb, Croatia, I'm 29 years old and my journey in software development has been a whirlwind of
             busy
             days, fun experiences, and fascinating moments. As a kid, I always liked to play with free random software
             apps
@@ -90,7 +93,7 @@
         </div>
       </div>
       <div class="grid grid-cols-8 mb-5 mt-5">
-        <div class="col-span-3 col-start-2">
+        <div class="col-span-7 md:col-span-5 md:col-start-2 xl:col-span-3 xl:col-start-2">
           <p class="mb-4">
             Later, I shifted to platforms like Joomla, WordPress, and PHPBB. I created web portal & forum where I shared
             small tutorials about web design, photoshop and all IT related topics.
@@ -154,7 +157,7 @@
       </div>
     </main>
     <footer class="grid grid-cols-8 mb-5 mt-48">
-      <div class="col-span-3 col-start-2">
+      <div class="col-span-8 md:col-span-5 md:col-start-2 xl:col-span-3 xl:col-start-2 text-xs flex justify-between">
         <span>
           2013 Zagreb, Croatia, Earth
         </span>
