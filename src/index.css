@@ -2,11 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-.image {
-    background-image: url("https://plus.unsplash.com/premium_photo-1661962766577-e216450f01e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-}
-.avatar-image {
-    background-image: url('https://ca.slack-edge.com/T04MHH5K7-UGEGJKSRW-49df04eb9959-512');
-}
