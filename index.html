@@ -79,13 +79,23 @@
         </div>
       </div>
       <div class="mb-5 mt-5">
-        <div class="container flex items-center justify-center h-96 m-auto mb-1 bg-fixed bg-center bg-cover 2xl:bg-contain bg-banner-day-sm dark:bg-banner-night-sm md:bg-banner-day-md md:dark:bg-banner-night-md lg:bg-banner-day-lg lg:dark:bg-banner-night-lg">
+        <div
+          class="container flex items-center justify-center h-96 m-auto mb-1 bg-fixed bg-center bg-cover 2xl:bg-contain bg-banner-day-sm dark:bg-banner-night-sm md:bg-banner-day-md md:dark:bg-banner-night-md lg:bg-banner-day-lg lg:dark:bg-banner-night-lg">
         </div>
       </div>
       <div class="grid grid-cols-8 mb-5 mt-5">
         <div class="col-span-8 md:col-span-6 md:col-start-2 xl:col-span-4 xl:col-start-2">
           <h2 class="mb-4 dark:text-night-heading-text-green text-blue-800 text-2xl">Background</h2>
-          <p class="text-xl">Born in Zagreb, Croatia, I'm 29 years old and my journey in software development has been a
+          <p class="text-xl">Born in Zagreb, Croatia, I'm <span>
+              <script>
+                document.write(
+                  Math.abs(
+                    new Date(
+                      Date.now() - new Date(1993, 11, 31).getTime()
+                    ).getUTCFullYear() - 1970
+                  )
+                )</script>
+            </span> years old and my journey in software development has been a
             whirlwind of
             busy
             days, fun experiences, and fascinating moments. As a kid, I always liked to play with free random software
@@ -167,7 +177,7 @@
     <footer class="grid grid-cols-8 mb-5 mt-48">
       <div class="col-span-8 md:col-span-5 md:col-start-2 xl:col-span-3 xl:col-start-2 text-xs flex justify-between">
         <span>
-         © 2023 All rights reserved.
+          © 2023 All rights reserved.
         </span>
         <a href="https://www.linkedin.com/in/antonio-rabuzin-zg/">LinkedIn</a>
       </div>
