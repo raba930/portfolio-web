@@ -17,15 +17,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="My personal portfolio for software development services">
   <title>My software development story</title>
-  <script type="module" crossorigin src="/assets/index-d5d4d960.js"></script>
-  <link rel="stylesheet" href="/assets/index-52575766.css">
+  <script type="module" crossorigin src="/assets/index-c74a331b.js"></script>
+  <link rel="stylesheet" href="/assets/index-0bccadab.css">
 </head>
 
 <body class="font-body bg-white text-black dark:bg-night-background  dark:text-night-text">
   <div class="container mx-auto p-4">
     <header class="mb-12 mt-12 md:mb-24 md:mt:24">
+      <div class="grid grid-cols-1">
+        <div class="justify-self-end -mb-12 z-10">
+          <button class="theme-toggle justify-end" id="theme-toggle" title="Toggles light & dark" aria-label="auto"
+            aria-live="polite">
+            <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+              <mask class="moon" id="moon-mask">
+                <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                <circle cx="24" cy="10" r="6" fill="black" />
+              </mask>
+              <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+              <g class="sun-beams" stroke="currentColor">
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
       <div class="grid grid-cols-8 gap-4 mb-16">
-        <div class="col-span-8 md:col-span-2 lg:col-span-2 xl:col-span-1 flex justify-center md:justify-center">
+        <div class="col-span-8 md:col-span-2 lg:col-span-2 xl:col-span-1 flex justify-center">
           <div class="w-32 h-32 rounded-3xl md:w-28 md:h-28 overflow-hidden bg-avatar bg-center bg-contain"></div>
         </div>
         <div class="col-span-8 md:col-span-6 lg:col-span-5 xl:col-span-4">
